@@ -1,0 +1,38 @@
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 50%;
+    @include respond(tab-port) {
+        width : 70%;
+    }
+    @include respond(phone) {
+        width : 100%;
+    }
+    margin: 0 auto;
+}
+
+tr {
+    background-color: $white;
+}
+
+td {
+    text-align: left;
+    padding: 1rem;
+    border-left: 1px solid #dddddd;
+    text-align: center;
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 1rem;
+    border-bottom: 1px solid $grey-light-2;
+}
+
+tr:hover {
+    background-color: $grey-light-2;
+}
+
+th {
+    border-right: 1px solid #0e60e4;
+    background-color: #3b74cf;
+    padding: 1.5rem;
+    color: #FFF;
+}

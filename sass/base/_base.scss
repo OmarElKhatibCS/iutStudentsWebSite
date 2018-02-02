@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+//1rem : 10px
+
+html {
+    // this defines what 1rem is
+    font-size: 62.5%;
+
+    @include respond(tab-port) {
+        font-size: 50%;
+    }
+
+    @include respond(tab-land) {
+        font-size: 56.25%;
+    }
+
+    @include respond(big-desktop) {
+        font-size: 75%;
+    }
+}
+
+body {
+    box-sizing: border-box;
+    background-color: #b7b7b754;
+    // background-image: linear-gradient(to right, $color-1, $color-2);
+}

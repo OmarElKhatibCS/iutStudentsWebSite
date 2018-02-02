@@ -1,0 +1,26 @@
+.grades-box {
+    // background-color: rgba($white, 0.8);
+    font-size: 1.5rem;
+    text-align: center;
+    border-radius: 3px;
+    // box-shadow: 0 1.5rem 4rem rgba($black, .15);
+    transition: transform 0.5s;
+
+    // @include respond(big-desktop) {
+    //     height: 27rem;
+    // }
+
+    // @include respond(tab-land) {
+    //     margin: 0 7rem;
+    //     height: 20rem;
+    // }
+
+    // @include respond(tab-port) {
+    //     margin: 0 7rem;
+    //     height: 30rem;
+    // }
+
+    // @include respond(phone) {
+    //     height: 50rem;
+    // }
+}
